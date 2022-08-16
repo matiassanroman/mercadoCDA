@@ -1,0 +1,22 @@
+.cartContainer {
+    min-height: 80vh;
+    padding: 20px;
+    margin: 30px;
+    background-color: rgb(202, 218, 232);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.vaciar {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: rgba(237, 80, 80, 0.895);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+    margin: 10px 0px;
+}

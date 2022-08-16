@@ -1,0 +1,35 @@
+.card {
+    box-shadow: 0px 0px 10px 1px rgba(63, 63, 63, 0.347);
+    margin: 15px;
+    width: 30%;
+    display: flex;
+}
+
+.card img {
+    width: 170px;
+    object-fit: cover;
+}
+
+.card .info {
+    padding: 10px;
+    border-left: 5px solid rgba(204, 204, 204, 0.278);
+}
+
+.card .info h3 {
+    font-size: 17px;
+    font-style: italic;
+    margin-bottom: 7px;
+    color: rgb(37, 176, 235);
+    background-color: rgba(9, 9, 9, 0.899);
+    padding: 4px;
+    border-radius: 5px;
+}
+
+.card .info h4 {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.sizeIcon {
+    height: 32px;
+}

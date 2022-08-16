@@ -1,0 +1,69 @@
+.containerCartDetail {
+    display: flex;
+    background-color: rgba(112, 192, 239, 0.372);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.infoCartDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.infoCartDetail img {
+    width: 70px;
+    border-radius: 8px;
+}
+
+.infoCartDetail article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoCartDetail article h3 {
+    margin: 0px 5px;
+}
+
+.infoCartDetail article h4 {
+    margin: 0px 5px;
+}
+
+.infoCartDetail article h5 {
+    margin: 0px 5px;
+}
+
+.subtotal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: rgba(112, 146, 239, 0.895);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.boton {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: rgba(112, 123, 239, 0.951);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+}
+
+.botonDelete {
+    padding: 6px 8px;
+    border-radius: 5px;
+    background-color: rgba(239, 112, 112, 0.895);
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    border: none;
+}
